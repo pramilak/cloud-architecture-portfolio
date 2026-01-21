@@ -7,7 +7,7 @@ Sanitized implementation of secure AWS infrastructure with automation, monitorin
 - IAM roles and least-privilege policies
 - AWS KMS and Secrets Manager
 - AWS CloudFormation
-- CloudWatch Logs and Alarms
+- Amazon CloudWatch Logs and Alarms
 - Amazon EventBridge
 - GitHub Actions / Jenkins
 
