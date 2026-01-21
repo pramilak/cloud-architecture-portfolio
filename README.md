@@ -1,23 +1,22 @@
-# Highly Available AWS Application Platform (Sanitized)
+# Secure Cloud Infrastructure & Automation (Sanitized)
 
 ## Overview
-This project represents a sanitized AWS architecture designed for client workloads, focusing on high availability, scalability, and security. Client-specific details are omitted due to NDAs.
+Sanitized implementation of secure AWS infrastructure with automation, monitoring, and controlled access aligned with regulated environment expectations.
 
 ## Architecture Components
-- Amazon VPC with multi-AZ public and private subnets
-- EC2 Auto Scaling Groups
-- Application Load Balancer (HTTPS)
-- Amazon RDS (Multi-AZ)
-- IAM roles and policies
-- AWS KMS and ACM
-- Amazon CloudWatch
+- IAM roles and least-privilege policies
+- AWS KMS and Secrets Manager
+- AWS CloudFormation
+- CloudWatch Logs and Alarms
+- Amazon EventBridge
+- GitHub Actions / Jenkins
 
 ## Key Design Decisions
-- Private subnets for application and database tiers
-- Auto Scaling for fault tolerance and elasticity
-- IAM role-based access (no static credentials)
-- Encryption at rest and in transit
+- Infrastructure as Code for repeatability and audit readiness
+- Centralized logging and alerting
+- Event-driven monitoring for operational visibility
 
-## Monitoring & Reliability
-- CloudWatch metrics, logs, and alarms
-- Health checks and automated instance replacement
+## Operational Excellence
+- Automated deployments
+- Reduced configuration drift
+- Improved troubleshooting and audit support
